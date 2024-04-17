@@ -1,23 +1,11 @@
-#!./venv/bin/python
-# project_env\Scripts\activate.bat
 import speech_recognition as sr
 from datetime import datetime
 import json
 import requests
 
-def listen_microphone():
-    recognizer = sr.Recognizer()
-
-    with sr.Microphone() as source:
-        print("Listening...")
-        recognizer.adjust_for_ambient_noise(source)
-        audio = recognizer.listen(source)
-
-    return audio
-
 def main():
     while True:
-        audio = listen_microphone()
+        audio = listen_microphone(recognizer)
 
         try:
             text = recognizer.recognize_google(audio).lower()
@@ -40,6 +28,16 @@ def main():
             print("...")
         except sr.RequestError as e:
             print(f"Error with the speech recognition service; {e}")
+def listen_microphone(recognizer):
+    while True:
+        with sr.Microphone() as source:
+            print("Listening...")
+            recognizer.adjust_for_ambient_noise(source)
+            try:
+                audio = recognizer.listen(source, timeout=4)
+                return audio
+            except sr.WaitTimeoutError:
+                continue
 
 def get_bitcoin_price():
     api_keys = load_api_keys()
