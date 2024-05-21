@@ -40,7 +40,7 @@ Approximate cost ~ **480 zł**
 ![IMG_1508-ezgif com-video-to-gif-converter](https://github.com/matiwan3/project-LEDisplay/assets/93386476/202e521c-6ad4-4d83-9a6f-0cb619ddfbbb)
  
 
-`sudo ./scrolling-text-example -s 2 -l -1 -C 255,0,0 -B 0,30,50 -f ../fonts/10x20.bdf "NMAN <3" --led-rows=32 --led-cols=64 --led-brightness=50  --led-pwm-dither-bits=2`
+`sudo ./scrolling-text-example -s 3 -l -1 -C 255,0,0 -f ../fonts/helvR12.bdf "Nicman <3" --led-rows=32 --led-cols=64 --led-brightness=50 --led-slowdown-gpio=42`
 
 
 <h2><p align="center">Instructions</p></h2>  
