@@ -27,4 +27,7 @@ Uwaga 1: Funkcjonalność modelu może zostać rozszerzona w przyszłości 📈
 Średni koszt ~ **480 zł**
 
 
-Uwaga 2: Panel nie będzie przeznaczony do użytku komercyjnego. Projekt tworzony w celach prywatnych❗️
+Uwaga 2: Projekt tworzony w celach prywatnych
+
+Linki  
+<a href="https://elty.pl/pl/p/Panel-matrycowy-LED-RGB-6432/2988">rpi rgb wiki</a>
