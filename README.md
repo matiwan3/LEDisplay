@@ -30,4 +30,4 @@ Uwaga 1: Funkcjonalność modelu może zostać rozszerzona w przyszłości 📈
 Uwaga 2: Projekt tworzony w celach prywatnych
 
 Linki  
-<a href="https://elty.pl/pl/p/Panel-matrycowy-LED-RGB-6432/2988">rpi rgb wiki</a>
+<a href="https://github.com/hzeller/rpi-rgb-led-matrix">rpi rgb wiki</a>
