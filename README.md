@@ -49,7 +49,7 @@ Note 1: The functionality of the model may be expanded in the future 📈
 ![IMG_1508-ezgif com-video-to-gif-converter](https://github.com/matiwan3/project-LEDisplay/assets/93386476/202e521c-6ad4-4d83-9a6f-0cb619ddfbbb)
  
 Adjusted font, text is more centralized due to lower led-rows value  
-`sudo ./scrolling-text-example -s 3 -l -1 -C 255,0,-f ../fonts/6x9.bdf "NICMAN <3" --led-rows=16 --led-cols=64 --led-brightness=50 --led-slowdown-gpio=4`  
+`sudo ./scrolling-text-example -s 3 -l -1 -C 255,0,0 -f ../fonts/6x9.bdf "NICMAN <3" --led-rows=16 --led-cols=64 --led-brightness=50 --led-slowdown-gpio=4`  
 
 <h2><p align="center">Instructions</p></h2>  
 
