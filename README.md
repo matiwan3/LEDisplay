@@ -30,8 +30,13 @@ Note 1: The functionality of the model may be expanded in the future 📈
 
 
 <h2><p align="center">Raspberry Pi Setup</p></h2>
-1. Clone <a href="https://github.com/hzeller/rpi-rgb-led-matrix">this repo</a>  <br>
-2. Deal with flickering. In my case the solution was `*--led-slowdown-gpio=4` key
+<div>
+1.Clone <a href="https://github.com/hzeller/rpi-rgb-led-matrix">this repo</a><br> 
+
+2.Deal with flickering. In my case the solution was `--led-slowdown-gpio=4` key
+</div>
+
+
 
 <h2><p align="center">Milestones</p></h2>
  - I established the connection to the PI through SSH. So cool 😎  
