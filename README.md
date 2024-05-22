@@ -15,18 +15,14 @@ Integrated system for messages and interactions (proprietary voice bot Tedy)
 Note 1: The functionality of the model may be expanded in the future 📈
 
 <h2><p align="center">Image galery</p></h2>
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-  <div>
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 50%; padding: 5px; display: flex; flex-direction: column;">
+    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/5c5e1d63-bb6f-4780-9bb9-5af7584c089d" alt="panel side view" width="500" height="300" style="margin-bottom: 10px;">
+    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/0458aa65-46f6-47f7-bacf-c32e413755f2" alt="panel +pi4 back" width="500" height="300">
+  </div>
+  <div style="flex: 50%; padding: 5px; display: flex; flex-direction: column;">
+    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/ff79d296-a831-4c57-b555-51f17f907510" alt="clock" width="500" height="300" style="margin-bottom: 10px;">
     <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/22bd0bf1-431d-40c4-9679-f3cc0bcac850" alt="gif" width="500" height="300">
-  </div>
-  <div>
-    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/3540eb7f-effb-49b1-b858-2cb376ec89ac" alt="panel +pi4 back" width="300" height="500">
-  </div>
-  <div>
-    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/ff79d296-a831-4c57-b555-51f17f907510" alt="clock" width="500" height="300">
-  </div>
-  <div>
-    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/5c5e1d63-bb6f-4780-9bb9-5af7584c089d" alt="panel side view" width="500" height="300">
   </div>
 </div>
 
