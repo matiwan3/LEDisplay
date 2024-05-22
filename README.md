@@ -14,20 +14,28 @@ The goal of the project is to create an interactive LED panel that will display 
 Integrated system for messages and interactions (proprietary voice bot Tedy)
 Note 1: The functionality of the model may be expanded in the future 📈
 
-## Preview image
-placeholder
+<h2><p align="center">Image galery</p></h2>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+  <div>
+    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/22bd0bf1-431d-40c4-9679-f3cc0bcac850" alt="gif" width="500" height="300">
+  </div>
+  <div>
+    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/3540eb7f-effb-49b1-b858-2cb376ec89ac" alt="panel +pi4 back" width="300" height="500">
+  </div>
+  <div>
+    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/ff79d296-a831-4c57-b555-51f17f907510" alt="clock" width="500" height="300">
+  </div>
+  <div>
+    <img src="https://github.com/matiwan3/project-LEDisplay/assets/93386476/5c5e1d63-bb6f-4780-9bb9-5af7584c089d" alt="panel side view" width="500" height="300">
+  </div>
+</div>
 
-### Hardware requirements
-- <a href="https://elty.pl/pl/p/Panel-matrycowy-LED-RGB-6432/2988">LED Panel</a>
-- <a href="https://botland.com.pl/moduly-i-zestawy-raspberry-pi-4b/14646-raspberry-pi-4-model-b-wifi-dualband-bluetooth-2gb-ram-15ghz-765756931175.html">raspberry PI 4</a>
-- <a href="https://botland.com.pl/zasilacze-do-raspberry-pi-4b/14348-zasilacz-usb-c-51v-3a-do-raspberry-pi-4-oryginalny-czarny-644824914886.html">Zasialcz do RP</a>
-- <a href ="https://botland.com.pl/karty-pamieci-raspberry-pi/14696-karta-pamieci-justpi-microsd-32gb-100mbs-klasa-10-system-raspberry-pi-os-5903351242493.html">Karta pamięci 32GB z systemem RPOS</a>
-- <a href="https://botland.com.pl/przewody-i-zlacza-wideo/14729-przewod-microhdmi-hdmi-15m-lexton-lxhd77-5907760632098.html">microHDMI-HDMI</a>
-  
-Approximate cost ~ **480 zł**
 
-<h2><p align="center">Useful links</p></h2>
-<a href="https://github.com/hzeller/rpi-rgb-led-matrix">rpi rgb wiki</a>
+
+
+<h2><p align="center">Raspberry Pi Setup</p></h2>
+1. Clone <a href="https://github.com/hzeller/rpi-rgb-led-matrix">this repo</a>  <br>
+2. Deal with flickering. In my case the solution was `*--led-slowdown-gpio=4` key
 
 <h2><p align="center">Milestones</p></h2>
  - I established the connection to the PI through SSH. So cool 😎  
@@ -39,9 +47,8 @@ Approximate cost ~ **480 zł**
 **--led-slowdown-gpio=4** - this removed flickering!!!  
 ![IMG_1508-ezgif com-video-to-gif-converter](https://github.com/matiwan3/project-LEDisplay/assets/93386476/202e521c-6ad4-4d83-9a6f-0cb619ddfbbb)
  
-
-`sudo ./scrolling-text-example -s 3 -l -1 -C 255,0,0 -f ../fonts/helvR12.bdf "Nicman <3" --led-rows=32 --led-cols=64 --led-brightness=50 --led-slowdown-gpio=42`
-
+Adjusted font, text is more centralized due to lower led-rows value  
+`sudo ./scrolling-text-example -s 3 -l -1 -C 255,0,-f ../fonts/6x9.bdf "NICMAN <3" --led-rows=16 --led-cols=64 --led-brightness=50 --led-slowdown-gpio=4`  
 
 <h2><p align="center">Instructions</p></h2>  
 
@@ -53,6 +60,11 @@ Approximate cost ~ **480 zł**
 
 ![image](https://github.com/matiwan3/project-LEDisplay/assets/93386476/7fc8c225-7be8-47ce-ac47-da213e736ed9)
 
-
-
+<h2><p align="center">Hardware requirements</p></h2>
+- <a href="https://elty.pl/pl/p/Panel-matrycowy-LED-RGB-6432/2988">LED Panel</a>
+- <a href="https://botland.com.pl/moduly-i-zestawy-raspberry-pi-4b/14646-raspberry-pi-4-model-b-wifi-dualband-bluetooth-2gb-ram-15ghz-765756931175.html">raspberry PI 4</a>
+- <a href="https://botland.com.pl/zasilacze-do-raspberry-pi-4b/14348-zasilacz-usb-c-51v-3a-do-raspberry-pi-4-oryginalny-czarny-644824914886.html">Zasialcz do RP</a>
+- <a href ="https://botland.com.pl/karty-pamieci-raspberry-pi/14696-karta-pamieci-justpi-microsd-32gb-100mbs-klasa-10-system-raspberry-pi-os-5903351242493.html">Karta pamięci 32GB z systemem RPOS</a>
+- <a href="https://botland.com.pl/przewody-i-zlacza-wideo/14729-przewod-microhdmi-hdmi-15m-lexton-lxhd77-5907760632098.html">microHDMI-HDMI</a>
+Approximate cost ~ **480 zł**
 
