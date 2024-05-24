@@ -1,6 +1,7 @@
 <h2><p align="center">Description</p></h2>
-Project dedicated to creating a decoration consisting of an LED display and a Raspberry Pi controller.
-Idea and Goal
+Project dedicated to creating a decoration consisting of an LED display and a Raspberry Pi controller.  
+
+**Idea and Goal:**
 The goal of the project is to create an interactive LED panel that will display selected information. Functions will be implemented in established phases:
 
 **Phase 1**  
