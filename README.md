@@ -69,4 +69,18 @@ Adjusted font, text is more centralized due to lower led-rows value
 - <a href ="https://botland.com.pl/karty-pamieci-raspberry-pi/14696-karta-pamieci-justpi-microsd-32gb-100mbs-klasa-10-system-raspberry-pi-os-5903351242493.html">Karta pamięci 32GB z systemem RPOS</a>
 - <a href="https://botland.com.pl/przewody-i-zlacza-wideo/14729-przewod-microhdmi-hdmi-15m-lexton-lxhd77-5907760632098.html">microHDMI-HDMI</a>
 Approximate cost ~ **480 zł**
+<br>
+<br>
+
+**Issues**  
+
+1. Running clock through the shell, while closing ssh connection, breaks the command in shell and closes clock program rom running. To resolve it use clock running in the background  
+_a) Using 'nohup'_  
+![image](https://github.com/matiwan3/project-LEDisplay/assets/93386476/0f0d7d71-6b01-4667-94e5-3851c362cefb)  
+_b) using 'tmux'_  
+![image](https://github.com/matiwan3/project-LEDisplay/assets/93386476/749881f4-450c-4666-8ea8-c44b0c7943ad)  
+_c) using 'screen'_  
+![image](https://github.com/matiwan3/project-LEDisplay/assets/93386476/fa463e80-9851-4ba0-8f6a-0fed383b7105)  
+
+
 
