@@ -32,7 +32,7 @@ Note 1: The functionality of the model may be expanded in the future 📈
 
 <h2><p align="center">Raspberry Pi Setup</p></h2>
 <div>
-1.Clone <a href="https://github.com/hzeller/rpi-rgb-led-matrix">this repo</a><br> 
+1.Clone <a href="https://github.com/hzeller/rpi-rgb-led-matrix">this repo and follow the setup instructions</a><br> 
 
 2.Deal with flickering. In my case the solution was `--led-slowdown-gpio=4` key
 </div>
@@ -68,7 +68,7 @@ Adjusted font, text is more centralized due to lower led-rows value
 - <a href="https://botland.com.pl/zasilacze-do-raspberry-pi-4b/14348-zasilacz-usb-c-51v-3a-do-raspberry-pi-4-oryginalny-czarny-644824914886.html">Zasialcz do RP</a>
 - <a href ="https://botland.com.pl/karty-pamieci-raspberry-pi/14696-karta-pamieci-justpi-microsd-32gb-100mbs-klasa-10-system-raspberry-pi-os-5903351242493.html">Karta pamięci 32GB z systemem RPOS</a>
 - <a href="https://botland.com.pl/przewody-i-zlacza-wideo/14729-przewod-microhdmi-hdmi-15m-lexton-lxhd77-5907760632098.html">microHDMI-HDMI</a>
-Approximate cost ~ **480 zł**
+Approximate cost ~ 480 zł
 <br>
 <br>
 
