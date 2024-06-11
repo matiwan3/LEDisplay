@@ -72,9 +72,9 @@ Approximate cost ~ **480 zł**
 <br>
 <br>
 
-**Issues**  
+<h2><p align="center">Issues</p></h2>
 
-1. Running clock through the shell, while closing ssh connection, breaks the command in shell and closes clock program rom running. To resolve it use clock running in the background  
+1. Running clock through the shell, while closing ssh connection, breaks the command in shell and closes clock program from running. To resolve it use clock running in the background method  
 _a) Using 'nohup'_  
 ![image](https://github.com/matiwan3/project-LEDisplay/assets/93386476/0f0d7d71-6b01-4667-94e5-3851c362cefb)  
 _b) using 'tmux'_  
