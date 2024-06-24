@@ -51,7 +51,7 @@ Note 1: The functionality of the model may be expanded in the future 📈
  
 Adjusted font, text is more centralized due to lower led-rows value  
 `sudo ./scrolling-text-example -s 3 -l -1 -C 255,0,0 -f ../fonts/6x9.bdf "NICMAN <3" --led-rows=16 --led-cols=64 --led-brightness=50 --led-slowdown-gpio=4`  
-
+`nohup sudo ./clock -f ../fonts/7x14.bdf -C 120,150,255 -B 0,0,0 --led-chain=2 -d "%A" -d "%H:%M:%S" --led-brightness=50 --led-slowdown-gpio=4 --led-cols=30 > output.log 2>&1 &`
 <h2><p align="center">Instructions</p></h2>  
 
 **keys**  
